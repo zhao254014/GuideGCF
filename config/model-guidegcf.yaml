@@ -1,0 +1,23 @@
+embedding_size: 64
+inter_matrix_type: "01"
+spmm: "spmm" # spmm, off
+
+# fix LightGCN
+n_layers: 4
+reg_weight: 1e-5
+learning_rate: 4e-5
+
+# MIM
+MIM_weight: 1e-05
+tau: 0.1
+
+# fix perturb
+ptb_strategy: "None" # "replace" "None"
+ptb_prop: 0.05
+
+gpu_id: 3
+sim_user_num: 2
+topk_add: 3
+topk_del: 5
+
+
