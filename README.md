@@ -1,4 +1,4 @@
-# Robust Graph Collaborative Filtering (RGCF)
+# Guide-based Graph Collaborative Filtering for Recommendation (GuideGCF)
 
 This is our Pytorch implementation for the paper:
 
@@ -18,6 +18,8 @@ This is our Pytorch implementation for the paper:
 ## Dataset:
 
 For Amazon_Kindle_Store
+
+
 
 ## Training:
 
