@@ -27,8 +27,6 @@ For Amazon_Kindle_Store
 # run on the real-world datasets
 python -u run_guidegcf.py
 
-# run on the synthetic datasets
-python -u run_guidegcf.py 
 ```
 
 ## Reference:
