@@ -342,7 +342,7 @@ class GuideGCF(GeneralRecommender):
         denoise_adj_sparse = torch.sparse.FloatTensor(pre_adj_2.indices(), pre_del_value_1,
                                                       denoise_adj.shape).coalesce()
 
-        # 转为u+i*u+i的adj
+
         denoise_indices_fin = torch.stack(
             [denoise_adj_sparse.indices()[0], denoise_adj_sparse.indices()[1] + denoise_adj.shape[0]], dim=0)
         pruned_adj = torch.sparse.FloatTensor(denoise_indices_fin, denoise_adj_sparse.values() ,
